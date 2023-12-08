@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .med-ul{
+     margin-right: 200px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .med-bt-1{
+     margin-top: 10px;
+    }
+    .bg-img{
+      margin-left:30px;
+      max-width: 250px;
+    }
+    
+
+    
+   
+}

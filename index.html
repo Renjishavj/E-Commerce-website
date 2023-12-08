@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <header>
+             <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+                <a class="navbar-brand " href="#"><img src="./images/lo.png" alt="" class="fasion ml-1"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="form-inline  my-2 my-lg-0 form1-custom">
+                    <div class="input-group input-search1">
+                        <input type="text" class="form-control " placeholder="Search here...">
+                        <div class="input-group-append">
+
+                            <button class="btn btn-dark s-btn" type="button">
+                
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                
+                                viewBox="0 0 16 16">
+                
+                                <path
+                
+                                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                
+                              </svg>
+                
+                            </button>
+                
+                          </div>    
+                    </div>
+                </form>
+                <div class="collapse navbar-collapse custom-nav " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active heading-nav">
+                            <a class="nav-link mr-3 " href="#">Home </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link line-a mr-3 " href="#">| </a>
+                        </li>
+                        <li class="nav-item active  heading-nav">
+                            <a class="nav-link mr-3 "  onclick="location.href='#about'">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link line-a mr-3" href="#">|</a>
+                        </li>
+                        <li class="nav-item active  heading-nav ">
+                            <a class="nav-link  line-a mr-3 " href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link line-a mr-3 " href="#">|</a>
+                        </li>
+                        <li class="nav-item active  heading-nav">
+                            <a class="nav-link disabled help mr-5  nav-item-single-one">Help</a>
+                        </li>
+                        <a href="shoppingcart.html" class="btn  pr-5 pl-5 my-2 my-lg-0 med-btn " ><img src="./images/cart.png" alt=""
+                            class="cart">Your Cart</a>
+                       
+
+                    </ul>
+                </div>
+            </nav>
+
+    </header>
+
+
+
+    <!-- first sectiom -->
+
+
+
+    <div class="container-fluid crs-dv">
+        <img src="./images/black.jpg" class="d-block w-100 cover-img " alt="...">
+
+        <div class="col text-head">
+            <h1 class=" font-weight-bold text-1 stretchedText">A Spring Break <br>For Your Wallet</h1>
+            <h6 class="text-11 ">Discover the latest trends and express your unique style </h6>
+        </div>
+        <div class="col first-content">
+            <div class="row  image-row">
+                <div class="col ">
+                    <img src="./images/firstthree.jpg"
+                        class=" img-thumb top-one" alt="...">
+                </div>
+                <div class="col ">
+                    <img src="./images/middle.jpg"
+                        class=" img-thumb middle-img " alt="...">
+                </div>
+                <div class="col ">
+                    <img src="./images/firsttwo.jpg"
+                        class=" img-thumb top-one" alt="...">
+                </div>
+            </div>
+            <div class="col mt-3 p-4 d-flex justify-content-center">
+                <a href="shop.html" class="btn btn-danger pl-3 pr-3 w-45 text-2 mt-5">Shop Now</a>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- sect sectiom? -->
+    <section>
+
+
+        <main class=" p-5 main-bg-col">
+
+            <div class="container-fluid ">
+
+                <div class="main-content">
+
+                    <div class="text-3 mt-1">
+
+                        <h1>featured products</h1>
+
+                    </div>
+
+                    <div class="container  carousal-content">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+
+                                    <div class="card-wraper">
+
+                                        <div class="card w-100 crd-sld ">
+
+                                            <img class="card-img-top img-slid-bg" src="./images/image1.jpg"
+                                                alt="Card image cap">
+
+                                            <div class="card-body">
+
+                                                <p class="card-text description">Reddish western <br>$200</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card w-100 crd-sld">
+
+                                            <img class="card-img-top img-slid-bg" src="./images/image2.jpg"
+                                                alt="Card image cap">
+
+                                            <div class="card-body">
+
+                                                <p class="card-text description">Western blue cordset <br>$300</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="carousel-item">
+
+                                    <div class="card-wraper">
+
+                                        <div class="card w-100 crd-sld">
+
+                                            <img class="card-img-top img-slid-bg" src="./images/image3.jpg"
+                                                alt="Card image cap">
+
+                                            <div class="card-body ">
+
+                                                <p class="card-text description">printed skirt <br>$100</p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="card w-100 crd-sld">
+
+                                            <img class="card-img-top img-slid-bg" src="./images/image4.jpg"
+                                                alt="Card image cap">
+
+                                            <div class="card-body">
+
+                                                <p class="card-text description">purple gown <br>$500</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                    <span class="sr-only">Previous</span>
+
+                                </a>
+
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                    <span class="sr-only">Next</span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </main>
+
+    </section>
+
+
+
+
+
+
+    <!-- thrd scctin -->
+
+    <section>
+        <div class="container-fluid section-one-content">
+            <h1 class="newsletter1">Do Spring Right!</h1>
+            <div class="contents-main">
+                <div class="contents">
+                    <p class="para-1">New cool-weather wardrobes. Fresh school supplies and new classes. <br> The leaves
+                        change colors and fall,<br> and were all reminded that a new year is on its way.
+                        Its the perfect time for you.
+                    </p>
+                </div>
+                <div class="email-contents">
+                    <form class="form-inline  my-2 my-lg-0 form2-custom">
+                        <div class="input-group input-search1">
+                            <input type="text" class="form-control mr-3 email-inp-index" placeholder="Email Address">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark btn-subscribe" type="button">
+                                    Subscribe
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- forth sectiomn -->
+
+
+    <section>
+        <div class="container-fluid section-second-content">
+            <div class="single">
+                <div class="card " style="width: 30rem;">
+                    <img src="./images/elegant-pretty-woman-wearing-fashionable-trendy-blue-maxi-dress-posing-city-park (1) (1).jpg"
+                        class="card-img-top singleimg" alt="..." name="singleimage-one">
+                    <div class="card-body ">
+                        <p class="card-text  description"> purple gown
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <br>$1000
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="multiple">
+                <div class="multiple-one">
+                    <div class="card mul-one" style="width: 22rem;">
+                        <img src="./images/mul1.jpg" class="card-img-top mul" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text  description"> purple gown
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span><br>$1000
+                        </div>
+                    </div>
+                    <div class="card mul-two" style="width: 22rem;">
+                        <img src="./images/mul2.jpg" class="card-img-top mul" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text  description"> purple gown
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span><br>$1000
+                        </div>
+                    </div>
+                </div><br>
+                <div class="multiple-two">
+                    <div class="card mul-three " style="width: 22rem;">
+                        <img src="./images/mul3.jpg" class="card-img-top mul" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text  description"> purple gown
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span><br>$1000
+                        </div>
+                    </div>
+                    <div class="card mul-four" style="width: 22rem;">
+                        <img src="./images/mul4.jpg" class="card-img-top mul" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text  description"> purple gown
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span><br>$1000
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="about-us" id="about">
+                <h1>About Us</h1>
+                <p>Shopping is an activity in which a customer browses the available goods or services presented by one
+                    or more retailers with the potential intent to purchase a suitable selection of them.
+                    Don't overthink it. Use conversational paragraph-long descriptions to engage fans and ideal
+                    customers as well as quick bullet points with need-to-know specs to concisely convey the most
+                    important information for online shoppers.
+                </p>
+            </div>
+            <div class="footer-last">
+                <div class="logofooter">
+                    <img src="./images/log.png" alt="" class="logofoot">
+                    <p class="parafoot">1717 St.San Francisco,<br>CA 94103,USA</p>
+
+                </div>
+                <div class="menu1">
+                    <h4>MAIN MENU</h4>
+                    <ul style="list-style-type: none;" class="ul1">
+                        <li class="underline">Home</li>
+                        <li  class="underline" >About </li>
+                        <li  class="underline">Shop</li>
+                        <li  class="underline">Help</li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <h4>COMPANY</h4>
+                    <ul style="list-style-type: none;" class="ul1">
+                        <li class="underline">The Company</li>
+                        <li class="underline">Careers</li>
+                        <li class="underline">Press</li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul style="list-style-type: none;" class="ul1">
+                        <h4>DISCOVER</h4>
+                        <li class="underline">The Team</li>
+                        <li class="underline">Our history</li>
+                        <li class="underline">Brand Motto</li>
+
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul style="list-style-type: none;" class="ul1">
+                        <h4>FIND US ON</h4>
+                        <li class="underline">Facebook</li>
+                        <li class="underline">Twitter</li>
+                        <li class="underline">Instagram</li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+ </div>
+</body>
+
+</html>
